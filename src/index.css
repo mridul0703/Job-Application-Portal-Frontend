@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* In your global CSS like index.css or App.css */
+* {
+	scrollbar-width: none; /* Firefox */
+	-ms-overflow-style: none; /* IE/Edge */
+}
+
+body::-webkit-scrollbar {
+	display: none; /* Chrome, Safari, Opera */
+}
