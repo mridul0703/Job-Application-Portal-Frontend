@@ -30,7 +30,7 @@ api.interceptors.request.use(async (req) => {
 
     // Token expired - attempt to refresh
     const res = await axios.post(
-      'https://job-application-portal-wrao.onrender.com/api/auth/refresh',
+      ' ',
       {},
       { withCredentials: true }
     );
